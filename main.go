@@ -33,8 +33,8 @@ func main() {
 
 func statusCuaca() {
 	for {
-		cuaca.Water = rand.Intn(10)
-		cuaca.Wind = rand.Intn(20)
+		cuaca.Water = rand.Intn(100)
+		cuaca.Wind = rand.Intn(100)
 
 		if cuaca.Water < 5 {
 			cuaca.WaterStatus = "Aman"
